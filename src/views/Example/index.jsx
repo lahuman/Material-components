@@ -155,7 +155,7 @@ export default function Example() {
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary">
+                  <Button variant="outlined" color="primary" href="https://github.com/lahuman/Material-components">
                     GitHub 바로 가기
                   </Button>
                 </Grid>
@@ -165,7 +165,8 @@ export default function Example() {
         </div>
         <Container className={classes.tableGrid} maxWidth="xl">
           <Paper>
-            <div className={classes.dateRangePicker}>
+          <div className={classes.dateRangePicker}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <CustomDatePicker
                 label="시작일"
                 value={startDate}
